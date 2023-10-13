@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 02</title>
+    <link rel="shortcut icon" href="desafio.ico" type="image/x-icon">
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+
+            position: relative;
+            height: 96vh;
+        }
+
+        table {
+            width: 500px;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+
+            padding: 20px;
+        }
+
+        .azul {
+            background-color: lightskyblue;
+        }
+
+        .vermelho {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; font-size: 2.7em; padding: 10px;">Desafio Tabela</h1>
+    <table>
+        <tr>
+            <td colspan="4" class="azul">A</td>
+            <td rowspan="4" class="azul">B</td>
+        </tr>
+
+        <tr>
+            <td rowspan="4" class="azul">C</td>
+            <td class="vermelho">D</td>
+            <td class="vermelho">E</td>
+            <td class="vermelho">F</td>
+        </tr>
+
+        <tr>
+            <td class="vermelho">G</td>
+            <td class="vermelho">H</td>
+            <td class="vermelho">I</td>
+        </tr>
+
+        <tr>
+            <td class="vermelho">J</td>
+            <td class="vermelho">L</td>
+            <td class="vermelho">M</td>
+        </tr>
+
+        <tr>
+            <td colspan="4" class="azul">N</td>
+        </tr>
+    </table>
+</body>
+</html>
